@@ -1,0 +1,7 @@
+name: ci
+
+jobs:
+  testcolor:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "It works"
