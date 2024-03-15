@@ -2,7 +2,7 @@ name: ci
 on: [push, pull_request]
 
 jobs:
-  testcolor:
+  test:
     runs-on: ubuntu-latest
     steps:
       - echo "It works"
